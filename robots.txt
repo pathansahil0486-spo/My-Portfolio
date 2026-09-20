@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mrsahilpathanpersonalportfolio.netlify.app/sitemap.xml

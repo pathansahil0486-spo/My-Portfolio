@@ -1,0 +1,23 @@
+{
+  "name": "sahil-mern-portfolio",
+  "version": "2.0.0",
+  "description": "Sahil Ramjan Pathan - Dynamic Full-Stack MERN Portfolio with Admin Panel",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "start:server": "cd server && npm start",
+    "build:client": "cd client && npm run build",
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev": "npx --yes concurrently \"npm run dev:server\" \"npm run dev:client\""
+  },
+  "keywords": [
+    "mern",
+    "portfolio",
+    "react",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "Sahil Ramjan Pathan",
+  "license": "ISC"
+}

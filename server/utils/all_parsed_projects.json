@@ -1,0 +1,1755 @@
+[
+  {
+    "title": "Solu Official Brand Website",
+    "slug": "solu-official-brand-website",
+    "category": "react",
+    "shortDescription": "Professional brand website built with React.js + Vite + TypeScript, deployed on Netlify.",
+    "fullDescription": "Professional brand website built with React.js + Vite + TypeScript, deployed on Netlify.",
+    "technologies": [
+      "React",
+      "Vite",
+      "TypeScript",
+      "Netlify"
+    ],
+    "image": "/images/soluOW.png",
+    "liveUrl": "https://soluofficial.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": true,
+    "order": 1
+  },
+  {
+    "title": "Saffron OTT Platform",
+    "slug": "saffron-ott-platform",
+    "category": "react",
+    "shortDescription": "Full-stack OTT platform — React frontend on Vercel, Node.js + Express on Render, MongoDB Atlas.",
+    "fullDescription": "Full-stack OTT platform — React frontend on Vercel, Node.js + Express on Render, MongoDB Atlas.",
+    "technologies": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://saffron-ott-frontend.vercel.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": true,
+    "order": 2
+  },
+  {
+    "title": "SMART AiInterview Platform",
+    "slug": "smart-aiinterview-platform",
+    "category": "react",
+    "shortDescription": "SMART AiInterview Platform — React frontend on Vercel, Node.js + Express on Render, MongoDB Atlas.",
+    "fullDescription": "SMART AiInterview Platform — React frontend on Vercel, Node.js + Express on Render, MongoDB Atlas.",
+    "technologies": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "image": "/images/ai-interview.png",
+    "liveUrl": "https://smart-interviewai-frontend.vercel.app",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": true,
+    "order": 3
+  },
+  {
+    "title": "TaskFlow Management System Web-app",
+    "slug": "taskflow-management-system-web-app",
+    "category": "fullstack",
+    "shortDescription": "React.js + Node.js app to manage tasks and projects.",
+    "fullDescription": "React.js + Node.js app to manage tasks and projects.",
+    "technologies": [
+      "React.js",
+      "Node.js",
+      "MongoDB"
+    ],
+    "image": "/images/taskflow.png",
+    "liveUrl": "https://taskflow-app-tau-two.vercel.app",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": true,
+    "order": 4
+  },
+  {
+    "title": "Hotel Diamond Stay Website",
+    "slug": "hotel-diamond-stay-website",
+    "category": "fullstack",
+    "shortDescription": "React.js + Node.js app to manage hotel bookings and reservations.",
+    "fullDescription": "React.js + Node.js app to manage hotel bookings and reservations.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "image": "/images/hotel.png",
+    "liveUrl": "https://hoteldiamondstay.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": true,
+    "order": 5
+  },
+  {
+    "title": "Luvia Global Products Website",
+    "slug": "luvia-global-products-website",
+    "category": "fullstack",
+    "shortDescription": "Modern e-commerce website for global product sales.",
+    "fullDescription": "Modern e-commerce website for global product sales.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "image": "/images/lgp.png",
+    "liveUrl": "https://luviaglobalproducts.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": true,
+    "order": 6
+  },
+  {
+    "title": "School Management System",
+    "slug": "school-management-system",
+    "category": "fullstack",
+    "shortDescription": "Angular + Spring Boot app to manage classes, teachers, and student data with role-based login.",
+    "fullDescription": "Angular + Spring Boot app to manage classes, teachers, and student data with role-based login.",
+    "technologies": [
+      "Angular",
+      "Spring Boot",
+      "MySQL"
+    ],
+    "image": "/images/sms.png",
+    "liveUrl": "https://github.com/sahilcoderrrr",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": true,
+    "order": 7
+  },
+  {
+    "title": "Signup &amp; Login Full Stack",
+    "slug": "signup-amp-login-full-stack",
+    "category": "react",
+    "shortDescription": "Full-stack authentication — Angular + TypeScript frontend on Netlify, Spring Boot backend.",
+    "fullDescription": "Full-stack authentication — Angular + TypeScript frontend on Netlify, Spring Boot backend.",
+    "technologies": [
+      "Angular",
+      "Spring Boot",
+      "TypeScript"
+    ],
+    "image": "/images/signlogin.png",
+    "liveUrl": "https://signinandsignupformfrontweapp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": true,
+    "order": 8
+  },
+  {
+    "title": "AI Health Predictor",
+    "slug": "ai-health-predictor",
+    "category": "frontend",
+    "shortDescription": "AI-powered health prediction tool. Smart, interactive, and deployed on Netlify.",
+    "fullDescription": "AI-powered health prediction tool. Smart, interactive, and deployed on Netlify.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS",
+      "AI"
+    ],
+    "image": "/images/AiHP.png",
+    "liveUrl": "https://aihealthpredictorsp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 9
+  },
+  {
+    "title": "SP Weathercast",
+    "slug": "sp-weathercast",
+    "category": "frontend",
+    "shortDescription": "Real-time weather web app deployed on Netlify.",
+    "fullDescription": "Real-time weather web app deployed on Netlify.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS",
+      "API"
+    ],
+    "image": "/images/spw.png",
+    "liveUrl": "https://spweathercast.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 10
+  },
+  {
+    "title": "Personal Portfolio Website",
+    "slug": "personal-portfolio-website",
+    "category": "frontend",
+    "shortDescription": "Modern responsive portfolio deployed on Netlify.",
+    "fullDescription": "Modern responsive portfolio deployed on Netlify.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/mppw.png",
+    "liveUrl": "https://mrsahilpathanpersonalportfolio.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 11
+  },
+  {
+    "title": "Movie Explorer",
+    "slug": "movie-explorer",
+    "category": "react",
+    "shortDescription": "Browse and search movies via API. Deployed on Netlify.",
+    "fullDescription": "Browse and search movies via API. Deployed on Netlify.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS",
+      "API"
+    ],
+    "image": "/images/me.png",
+    "liveUrl": "https://movieexplorerwa.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 12
+  },
+  {
+    "title": "SP Systems Admin",
+    "slug": "sp-systems-admin",
+    "category": "react",
+    "shortDescription": "Systems administration dashboard site. Clean, functional UI.",
+    "fullDescription": "Systems administration dashboard site. Clean, functional UI.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/spsystemsadmin.png",
+    "liveUrl": "https://spsystemsadmin.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 13
+  },
+  {
+    "title": "Sparks Fashions",
+    "slug": "sparks-fashions",
+    "category": "react",
+    "shortDescription": "Fashion brand site with modern aesthetics and smooth UI.",
+    "fullDescription": "Fashion brand site with modern aesthetics and smooth UI.",
+    "technologies": [
+      "Frontend",
+      "Netlify"
+    ],
+    "image": "/images/sparksfashions.png",
+    "liveUrl": "https://sparks-fashions.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 14
+  },
+  {
+    "title": "SP High Tech",
+    "slug": "sp-high-tech",
+    "category": "frontend",
+    "shortDescription": "Tech company website with futuristic design.",
+    "fullDescription": "Tech company website with futuristic design.",
+    "technologies": [
+      "Frontend",
+      "Netlify"
+    ],
+    "image": "/images/sphightech.png",
+    "liveUrl": "https://sphightech.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 15
+  },
+  {
+    "title": "SP Gamer War",
+    "slug": "sp-gamer-war",
+    "category": "frontend",
+    "shortDescription": "Gaming-themed website with bold visuals and dark aesthetics.",
+    "fullDescription": "Gaming-themed website with bold visuals and dark aesthetics.",
+    "technologies": [
+      "Frontend",
+      "Gaming"
+    ],
+    "image": "/images/spgamerwar.png",
+    "liveUrl": "https://spgamerwar.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 16
+  },
+  {
+    "title": "SP Caffe",
+    "slug": "sp-caffe",
+    "category": "frontend",
+    "shortDescription": "Café/restaurant website with warm, inviting design.",
+    "fullDescription": "Café/restaurant website with warm, inviting design.",
+    "technologies": [
+      "Frontend",
+      "Netlify"
+    ],
+    "image": "/images/spcaffe.png",
+    "liveUrl": "https://spcaffe.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 17
+  },
+  {
+    "title": "SP IAL (AI Platform)",
+    "slug": "sp-ial-ai-platform",
+    "category": "react",
+    "shortDescription": "AI-themed platform site. Intelligent interfaces, modern UI.",
+    "fullDescription": "AI-themed platform site. Intelligent interfaces, modern UI.",
+    "technologies": [
+      "AI",
+      "Frontend"
+    ],
+    "image": "/images/spial.png",
+    "liveUrl": "https://spial.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 18
+  },
+  {
+    "title": "Resumes Web SP",
+    "slug": "resumes-web-sp",
+    "category": "frontend",
+    "shortDescription": "Resume/CV builder and showcase platform.",
+    "fullDescription": "Resume/CV builder and showcase platform.",
+    "technologies": [
+      "Frontend",
+      "Netlify"
+    ],
+    "image": "/images/resumeswebsp.png",
+    "liveUrl": "https://resumeswebsp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 19
+  },
+  {
+    "title": "SP Crypto Coin",
+    "slug": "sp-crypto-coin",
+    "category": "react",
+    "shortDescription": "Cryptocurrency themed website with live UI components.",
+    "fullDescription": "Cryptocurrency themed website with live UI components.",
+    "technologies": [
+      "Crypto",
+      "Frontend"
+    ],
+    "image": "/images/spcryptocoin.png",
+    "liveUrl": "https://sp-cryptocoin.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 20
+  },
+  {
+    "title": "Shop S Ecommerce",
+    "slug": "shop-s-ecommerce",
+    "category": "react",
+    "shortDescription": "E-commerce shop frontend with product listings and cart UI.",
+    "fullDescription": "E-commerce shop frontend with product listings and cart UI.",
+    "technologies": [
+      "E-Commerce",
+      "Frontend"
+    ],
+    "image": "/images/shopsecomerce.png",
+    "liveUrl": "https://shopsecomerce.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 21
+  },
+  {
+    "title": "SP Car Books",
+    "slug": "sp-car-books",
+    "category": "frontend",
+    "shortDescription": "Car booking/showcase website with clean automotive design.",
+    "fullDescription": "Car booking/showcase website with clean automotive design.",
+    "technologies": [
+      "Frontend",
+      "Netlify"
+    ],
+    "image": "/images/spcarbooks.png",
+    "liveUrl": "https://spcarbooks.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 22
+  },
+  {
+    "title": "SP Fammas",
+    "slug": "sp-fammas",
+    "category": "frontend",
+    "shortDescription": "Family/lifestyle website with warm, natural design language.",
+    "fullDescription": "Family/lifestyle website with warm, natural design language.",
+    "technologies": [
+      "Frontend",
+      "Netlify"
+    ],
+    "image": "/images/spfammas.png",
+    "liveUrl": "https://spfammas.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 23
+  },
+  {
+    "title": "SP Finance Network",
+    "slug": "sp-finance-network",
+    "category": "react",
+    "shortDescription": "Finance platform website with professional, trustworthy design.",
+    "fullDescription": "Finance platform website with professional, trustworthy design.",
+    "technologies": [
+      "Finance",
+      "Frontend"
+    ],
+    "image": "/images/spfinancenetw.png",
+    "liveUrl": "https://spfinancenetw.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 24
+  },
+  {
+    "title": "SP Grand School",
+    "slug": "sp-grand-school",
+    "category": "frontend",
+    "shortDescription": "School website with academic information, clean UI layout.",
+    "fullDescription": "School website with academic information, clean UI layout.",
+    "technologies": [
+      "Education",
+      "Frontend"
+    ],
+    "image": "/images/spgrandschool.png",
+    "liveUrl": "https://spgrandschool.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 25
+  },
+  {
+    "title": "SP Growing",
+    "slug": "sp-growing",
+    "category": "frontend",
+    "shortDescription": "Growth/startup themed website with inspiring modern design.",
+    "fullDescription": "Growth/startup themed website with inspiring modern design.",
+    "technologies": [
+      "Frontend",
+      "Netlify"
+    ],
+    "image": "/images/spgrowing.png",
+    "liveUrl": "https://spgrowing.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 26
+  },
+  {
+    "title": "New SP Box (News)",
+    "slug": "new-sp-box-news",
+    "category": "react",
+    "shortDescription": "News portal with categorized articles and responsive layout.",
+    "fullDescription": "News portal with categorized articles and responsive layout.",
+    "technologies": [
+      "News",
+      "Frontend"
+    ],
+    "image": "/images/newspbox.png",
+    "liveUrl": "https://newspbox.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 27
+  },
+  {
+    "title": "SP Podcast Web",
+    "slug": "sp-podcast-web",
+    "category": "frontend",
+    "shortDescription": "Podcast platform website with episode listings and audio UI.",
+    "fullDescription": "Podcast platform website with episode listings and audio UI.",
+    "technologies": [
+      "Audio",
+      "Frontend"
+    ],
+    "image": "/images/sppodcastweb.png",
+    "liveUrl": "https://s-podcast-web.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 28
+  },
+  {
+    "title": "Anime Web by SP",
+    "slug": "anime-web-by-sp",
+    "category": "frontend",
+    "shortDescription": "Anime-themed website with vibrant visuals and smooth animations.",
+    "fullDescription": "Anime-themed website with vibrant visuals and smooth animations.",
+    "technologies": [
+      "Entertainment",
+      "Frontend"
+    ],
+    "image": "/images/animewebbysp.png",
+    "liveUrl": "https://animewebbysp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 29
+  },
+  {
+    "title": "NUBI SP",
+    "slug": "nubi-sp",
+    "category": "frontend",
+    "shortDescription": "Creative project site with artistic design and interactive elements.",
+    "fullDescription": "Creative project site with artistic design and interactive elements.",
+    "technologies": [
+      "Creative",
+      "Frontend"
+    ],
+    "image": "/images/nubisp.png",
+    "liveUrl": "https://nubisp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 30
+  },
+  {
+    "title": "P Studio CP",
+    "slug": "p-studio-cp",
+    "category": "frontend",
+    "shortDescription": "Photography studio portfolio site with gallery and booking UI.",
+    "fullDescription": "Photography studio portfolio site with gallery and booking UI.",
+    "technologies": [
+      "Photography",
+      "Frontend"
+    ],
+    "image": "/images/pstudio-cp.png",
+    "liveUrl": "https://pstudio-cp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 31
+  },
+  {
+    "title": "SP AIC (AI Companion)",
+    "slug": "sp-aic-ai-companion",
+    "category": "react",
+    "shortDescription": "AI companion interface with smart, conversational UI design.",
+    "fullDescription": "AI companion interface with smart, conversational UI design.",
+    "technologies": [
+      "AI",
+      "Frontend"
+    ],
+    "image": "/images/spaic.png",
+    "liveUrl": "https://spaic.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 32
+  },
+  {
+    "title": "Sprite Web",
+    "slug": "sprite-web",
+    "category": "react",
+    "shortDescription": "Creative web project with sprite animations and engaging interactions.",
+    "fullDescription": "Creative web project with sprite animations and engaging interactions.",
+    "technologies": [
+      "Frontend",
+      "Creative"
+    ],
+    "image": "/images/sprite-web.png",
+    "liveUrl": "https://sprite-web.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 33
+  },
+  {
+    "title": "BYP Shops",
+    "slug": "byp-shops",
+    "category": "frontend",
+    "shortDescription": "Shopping platform UI with product showcase and modern layout.",
+    "fullDescription": "Shopping platform UI with product showcase and modern layout.",
+    "technologies": [
+      "E-Commerce",
+      "Frontend"
+    ],
+    "image": "/images/byp-shops.png",
+    "liveUrl": "https://bypshops.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 34
+  },
+  {
+    "title": "Walk SP TAR",
+    "slug": "walk-sp-tar",
+    "category": "frontend",
+    "shortDescription": "Walking/travel app website with map-inspired UI and smooth layout.",
+    "fullDescription": "Walking/travel app website with map-inspired UI and smooth layout.",
+    "technologies": [
+      "Frontend",
+      "Netlify"
+    ],
+    "image": "/images/walk-sptar.png",
+    "liveUrl": "https://walksptar.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 35
+  },
+  {
+    "title": "Task Manager",
+    "slug": "task-manager",
+    "category": "tools",
+    "shortDescription": "Productivity task manager with add/remove/complete functionality.",
+    "fullDescription": "Productivity task manager with add/remove/complete functionality.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/tm.png",
+    "liveUrl": "https://taskmanager-com.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 36
+  },
+  {
+    "title": "Expense Tracker",
+    "slug": "expense-tracker",
+    "category": "tools",
+    "shortDescription": "Track income and expenses with live balance calculation.",
+    "fullDescription": "Track income and expenses with live balance calculation.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/et.png",
+    "liveUrl": "https://expensetrackerwa.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 37
+  },
+  {
+    "title": "BMI Calculator",
+    "slug": "bmi-calculator",
+    "category": "tools",
+    "shortDescription": "Calculate BMI with visual health range indicators.",
+    "fullDescription": "Calculate BMI with visual health range indicators.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/bmi.png",
+    "liveUrl": "https://bmicalculatorp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 38
+  },
+  {
+    "title": "Loan Calculator",
+    "slug": "loan-calculator",
+    "category": "tools",
+    "shortDescription": "Calculate EMIs and loan repayments with detailed breakdowns.",
+    "fullDescription": "Calculate EMIs and loan repayments with detailed breakdowns.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/loan.png",
+    "liveUrl": "https://loancalculatorp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 39
+  },
+  {
+    "title": "SP Calculator",
+    "slug": "sp-calculator",
+    "category": "tools",
+    "shortDescription": "Feature-rich calculator with clean UI and keyboard support.",
+    "fullDescription": "Feature-rich calculator with clean UI and keyboard support.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/dcw.png",
+    "liveUrl": "https://spcalci.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 40
+  },
+  {
+    "title": "Palindrome Checker",
+    "slug": "palindrome-checker",
+    "category": "tools",
+    "shortDescription": "Instantly check if a string is a palindrome with visual feedback.",
+    "fullDescription": "Instantly check if a string is a palindrome with visual feedback.",
+    "technologies": [
+      "HTML",
+      "JS"
+    ],
+    "image": "/images/pc.png",
+    "liveUrl": "https://palindromecheckerw.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 41
+  },
+  {
+    "title": "ASCII &amp; Unicode Detector",
+    "slug": "ascii-amp-unicode-detector",
+    "category": "tools",
+    "shortDescription": "Detect and display ASCII / Unicode values of any character.",
+    "fullDescription": "Detect and display ASCII / Unicode values of any character.",
+    "technologies": [
+      "HTML",
+      "JS"
+    ],
+    "image": "/images/aud.png",
+    "liveUrl": "https://asciiandunicodechardetecterw.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 42
+  },
+  {
+    "title": "Digital Clock",
+    "slug": "digital-clock",
+    "category": "tools",
+    "shortDescription": "Beautiful live-updating digital clock. Smooth and minimal.",
+    "fullDescription": "Beautiful live-updating digital clock. Smooth and minimal.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/dc.png",
+    "liveUrl": "https://digitalclockaps.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 43
+  },
+  {
+    "title": "Internet Connection Status Checker",
+    "slug": "internet-connection-status-checker",
+    "category": "tools",
+    "shortDescription": "Check your internet connectivity status in real time.",
+    "fullDescription": "Check your internet connectivity status in real time.",
+    "technologies": [
+      "HTML",
+      "JS"
+    ],
+    "image": "/images/icsc.png",
+    "liveUrl": "https://internetconnectionstatuscheckerw.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 44
+  },
+  {
+    "title": "Counter Application",
+    "slug": "counter-application",
+    "category": "tools",
+    "shortDescription": "Simple, elegant counter with increment/decrement/reset.",
+    "fullDescription": "Simple, elegant counter with increment/decrement/reset.",
+    "technologies": [
+      "HTML",
+      "JS"
+    ],
+    "image": "/images/countera.png",
+    "liveUrl": "https://counterapplicationw.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 45
+  },
+  {
+    "title": "RGB Color Generator",
+    "slug": "rgb-color-generator",
+    "category": "frontend",
+    "shortDescription": "Generate and preview RGB colors with an interactive slider UI.",
+    "fullDescription": "Generate and preview RGB colors with an interactive slider UI.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/rgbcg.png",
+    "liveUrl": "https://rgbcolorgeneratorw.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 46
+  },
+  {
+    "title": "Random Color Generator",
+    "slug": "random-color-generator",
+    "category": "frontend",
+    "shortDescription": "Generates random RGB colors on click with hex code display.",
+    "fullDescription": "Generates random RGB colors on click with hex code display.",
+    "technologies": [
+      "HTML",
+      "JS"
+    ],
+    "image": "/images/image.png",
+    "liveUrl": "https://randomcolorgeneratorp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 47
+  },
+  {
+    "title": "Hostel Management System",
+    "slug": "hostel-management-system",
+    "category": "fullstack",
+    "shortDescription": "Login, room allotment, staff &amp; student dashboards. Full backend with Node.js + Express + MySQL.",
+    "fullDescription": "Login, room allotment, staff &amp; student dashboards. Full backend with Node.js + Express + MySQL.",
+    "technologies": [
+      "Node.js",
+      "Express",
+      "MySQL"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://mhmsp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 48
+  },
+  {
+    "title": "SP 3D Card Effect",
+    "slug": "sp-3d-card-effect",
+    "category": "frontend",
+    "shortDescription": "Interactive 3D tilt card effect with perspective transforms.",
+    "fullDescription": "Interactive 3D tilt card effect with perspective transforms.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://sp3dcard.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 49
+  },
+  {
+    "title": "Spotlight Effect",
+    "slug": "spotlight-effect",
+    "category": "frontend",
+    "shortDescription": "Mouse-following spotlight light effect using CSS &amp; Canvas.",
+    "fullDescription": "Mouse-following spotlight light effect using CSS &amp; Canvas.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spotlighteffsp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 50
+  },
+  {
+    "title": "SP Text Animation",
+    "slug": "sp-text-animation",
+    "category": "frontend",
+    "shortDescription": "Various impressive CSS text animation effects and transitions.",
+    "fullDescription": "Various impressive CSS text animation effects and transitions.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://sptextanimation.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 51
+  },
+  {
+    "title": "SVG Animation SP",
+    "slug": "svg-animation-sp",
+    "category": "frontend",
+    "shortDescription": "SVG-based animation showcase with morphing and path effects.",
+    "fullDescription": "SVG-based animation showcase with morphing and path effects.",
+    "technologies": [
+      "SVG",
+      "CSS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://svganimationsp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 52
+  },
+  {
+    "title": "SP Cursor Effect",
+    "slug": "sp-cursor-effect",
+    "category": "frontend",
+    "shortDescription": "Custom animated cursor with trailing glow and hover effects.",
+    "fullDescription": "Custom animated cursor with trailing glow and hover effects.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spcursereff.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 53
+  },
+  {
+    "title": "SP 3D Parallax",
+    "slug": "sp-3d-parallax",
+    "category": "frontend",
+    "shortDescription": "Immersive 3D parallax scrolling effect with depth layers.",
+    "fullDescription": "Immersive 3D parallax scrolling effect with depth layers.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://sp3dparalex.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 54
+  },
+  {
+    "title": "Isometric Words SP",
+    "slug": "isometric-words-sp",
+    "category": "frontend",
+    "shortDescription": "3D isometric text rendering with perspective CSS transforms.",
+    "fullDescription": "3D isometric text rendering with perspective CSS transforms.",
+    "technologies": [
+      "CSS",
+      "3D"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spisometricwords.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 55
+  },
+  {
+    "title": "Parrot Round Effect",
+    "slug": "parrot-round-effect",
+    "category": "frontend",
+    "shortDescription": "Circular rotation animation effect with smooth transitions.",
+    "fullDescription": "Circular rotation animation effect with smooth transitions.",
+    "technologies": [
+      "CSS",
+      "Animation"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://parrotroundeffect.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 56
+  },
+  {
+    "title": "SP Jumping Letters",
+    "slug": "sp-jumping-letters",
+    "category": "frontend",
+    "shortDescription": "Text animation where letters jump and bounce with style.",
+    "fullDescription": "Text animation where letters jump and bounce with style.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spjumpingletters.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 57
+  },
+  {
+    "title": "Particle Rain Game",
+    "slug": "particle-rain-game",
+    "category": "tools",
+    "shortDescription": "Interactive particle rain simulation game built with Canvas API.",
+    "fullDescription": "Interactive particle rain simulation game built with Canvas API.",
+    "technologies": [
+      "Canvas",
+      "JS",
+      "Game"
+    ],
+    "image": "/images/particlerain.png",
+    "liveUrl": "https://particlegame.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 58
+  },
+  {
+    "title": "SP Rain Drops",
+    "slug": "sp-rain-drops",
+    "category": "tools",
+    "shortDescription": "Beautiful rain drop simulation using HTML5 Canvas animation.",
+    "fullDescription": "Beautiful rain drop simulation using HTML5 Canvas animation.",
+    "technologies": [
+      "Canvas",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spraindrops.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 59
+  },
+  {
+    "title": "SP Floating Bubble",
+    "slug": "sp-floating-bubble",
+    "category": "tools",
+    "shortDescription": "Interactive floating bubble animation with click-to-pop effects.",
+    "fullDescription": "Interactive floating bubble animation with click-to-pop effects.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spfloatingbubble.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 60
+  },
+  {
+    "title": "SP Corona Counter",
+    "slug": "sp-corona-counter",
+    "category": "frontend",
+    "shortDescription": "COVID-19 statistics tracker with real-time counter updates.",
+    "fullDescription": "COVID-19 statistics tracker with real-time counter updates.",
+    "technologies": [
+      "JS",
+      "API"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spcoronacounter.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 61
+  },
+  {
+    "title": "SP Password Generator",
+    "slug": "sp-password-generator",
+    "category": "tools",
+    "shortDescription": "Secure password generator with length and character controls.",
+    "fullDescription": "Secure password generator with length and character controls.",
+    "technologies": [
+      "HTML",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://sppwdgenrtr.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 62
+  },
+  {
+    "title": "SP Search Box",
+    "slug": "sp-search-box",
+    "category": "tools",
+    "shortDescription": "Animated search box with live-filter functionality.",
+    "fullDescription": "Animated search box with live-filter functionality.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spsearchbox.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 63
+  },
+  {
+    "title": "SP Stopwatch",
+    "slug": "sp-stopwatch",
+    "category": "tools",
+    "shortDescription": "Precise stopwatch with start/stop/reset and lap timing.",
+    "fullDescription": "Precise stopwatch with start/stop/reset and lap timing.",
+    "technologies": [
+      "HTML",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://stopwatchsps.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 64
+  },
+  {
+    "title": "What Is Today SP",
+    "slug": "what-is-today-sp",
+    "category": "tools",
+    "shortDescription": "Display today's date, day, and time in a beautiful card format.",
+    "fullDescription": "Display today's date, day, and time in a beautiful card format.",
+    "technologies": [
+      "HTML",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://whatistodaysp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 65
+  },
+  {
+    "title": "How Much You Survived SP",
+    "slug": "how-much-you-survived-sp",
+    "category": "tools",
+    "shortDescription": "Calculate how much of your life you've lived — with motivational output!",
+    "fullDescription": "Calculate how much of your life you've lived — with motivational output!",
+    "technologies": [
+      "HTML",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://howmuchyouservived-sp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 66
+  },
+  {
+    "title": "Random Quote Generator",
+    "slug": "random-quote-generator",
+    "category": "tools",
+    "shortDescription": "Generate random inspirational quotes with smooth fade transitions.",
+    "fullDescription": "Generate random inspirational quotes with smooth fade transitions.",
+    "technologies": [
+      "HTML",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://randomquotegenrtr.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 67
+  },
+  {
+    "title": "SP Image Slider",
+    "slug": "sp-image-slider",
+    "category": "frontend",
+    "shortDescription": "Smooth responsive image slider with auto-play and dot navigation.",
+    "fullDescription": "Smooth responsive image slider with auto-play and dot navigation.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spimageslider.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 68
+  },
+  {
+    "title": "SP Expand Cards",
+    "slug": "sp-expand-cards",
+    "category": "frontend",
+    "shortDescription": "Beautiful expanding card panels with smooth CSS transitions.",
+    "fullDescription": "Beautiful expanding card panels with smooth CSS transitions.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spexpandcards.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 69
+  },
+  {
+    "title": "Triadic Color Effect",
+    "slug": "triadic-color-effect",
+    "category": "tools",
+    "shortDescription": "Explore triadic color theory with interactive visual palette.",
+    "fullDescription": "Explore triadic color theory with interactive visual palette.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://triadiccoloreff.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 70
+  },
+  {
+    "title": "SP Timeline",
+    "slug": "sp-timeline",
+    "category": "frontend",
+    "shortDescription": "Animated vertical timeline with scroll-triggered reveal effects.",
+    "fullDescription": "Animated vertical timeline with scroll-triggered reveal effects.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://sptimeline.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 71
+  },
+  {
+    "title": "SP Illumination",
+    "slug": "sp-illumination",
+    "category": "frontend",
+    "shortDescription": "Glowing illumination effect with dynamic light rays.",
+    "fullDescription": "Glowing illumination effect with dynamic light rays.",
+    "technologies": [
+      "CSS",
+      "Animation"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://illuminationsp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 72
+  },
+  {
+    "title": "Gallery Hover Effect",
+    "slug": "gallery-hover-effect",
+    "category": "frontend",
+    "shortDescription": "Elegant image gallery with stunning hover overlay animations.",
+    "fullDescription": "Elegant image gallery with stunning hover overlay animations.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://galleryhovereffectsp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 73
+  },
+  {
+    "title": "SP Rotating Text",
+    "slug": "sp-rotating-text",
+    "category": "frontend",
+    "shortDescription": "Circular rotating text animation around a central element.",
+    "fullDescription": "Circular rotating text animation around a central element.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://sprotatingtext.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 74
+  },
+  {
+    "title": "SP Long Shadow",
+    "slug": "sp-long-shadow",
+    "category": "frontend",
+    "shortDescription": "Material design inspired long shadow text effect in pure CSS.",
+    "fullDescription": "Material design inspired long shadow text effect in pure CSS.",
+    "technologies": [
+      "CSS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://splongshadow.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 75
+  },
+  {
+    "title": "SP Bell Notification",
+    "slug": "sp-bell-notification",
+    "category": "frontend",
+    "shortDescription": "Animated notification bell with badge counter and dropdown.",
+    "fullDescription": "Animated notification bell with badge counter and dropdown.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spbellnotification.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 76
+  },
+  {
+    "title": "SP Menu Effect",
+    "slug": "sp-menu-effect",
+    "category": "frontend",
+    "shortDescription": "Creative animated navigation menu with magnetic hover effects.",
+    "fullDescription": "Creative animated navigation menu with magnetic hover effects.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spmenueffect.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 77
+  },
+  {
+    "title": "SP Accordion",
+    "slug": "sp-accordion",
+    "category": "frontend",
+    "shortDescription": "Smooth accordion FAQ component with animated expand/collapse.",
+    "fullDescription": "Smooth accordion FAQ component with animated expand/collapse.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spaccordion.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 78
+  },
+  {
+    "title": "SP Key Codes",
+    "slug": "sp-key-codes",
+    "category": "tools",
+    "shortDescription": "Display keyboard key codes and event properties on keypress.",
+    "fullDescription": "Display keyboard key codes and event properties on keypress.",
+    "technologies": [
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spkeycodes.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 79
+  },
+  {
+    "title": "SP Background Color Changer",
+    "slug": "sp-background-color-changer",
+    "category": "frontend",
+    "shortDescription": "Instantly change page background color with smooth transitions.",
+    "fullDescription": "Instantly change page background color with smooth transitions.",
+    "technologies": [
+      "JS",
+      "CSS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spbackgroundcolorc.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 80
+  },
+  {
+    "title": "SP Newsletter Popup",
+    "slug": "sp-newsletter-popup",
+    "category": "frontend",
+    "shortDescription": "Animated newsletter modal popup with smooth entrance/exit.",
+    "fullDescription": "Animated newsletter modal popup with smooth entrance/exit.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spnewsletterpopup.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 81
+  },
+  {
+    "title": "SP Weight Converter",
+    "slug": "sp-weight-converter",
+    "category": "tools",
+    "shortDescription": "Convert between kg, lbs, grams and more weight units instantly.",
+    "fullDescription": "Convert between kg, lbs, grams and more weight units instantly.",
+    "technologies": [
+      "HTML",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spweightconv.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 82
+  },
+  {
+    "title": "Calc by SP",
+    "slug": "calc-by-sp",
+    "category": "tools",
+    "shortDescription": "Clean calculator with history tracking and keyboard input.",
+    "fullDescription": "Clean calculator with history tracking and keyboard input.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://calcbysp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 83
+  },
+  {
+    "title": "SP Scratch Effect",
+    "slug": "sp-scratch-effect",
+    "category": "frontend",
+    "shortDescription": "Scratch card reveal animation built with HTML5 Canvas API.",
+    "fullDescription": "Scratch card reveal animation built with HTML5 Canvas API.",
+    "technologies": [
+      "Canvas",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spscratcheffect.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 84
+  },
+  {
+    "title": "SP Parallax Effect",
+    "slug": "sp-parallax-effect",
+    "category": "frontend",
+    "shortDescription": "Multi-layer parallax scrolling with depth and atmospheric effects.",
+    "fullDescription": "Multi-layer parallax scrolling with depth and atmospheric effects.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spparalaxeff.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 85
+  },
+  {
+    "title": "PSS Scrollbar",
+    "slug": "pss-scrollbar",
+    "category": "frontend",
+    "shortDescription": "Custom styled scrollbar with gradient color and smooth feel.",
+    "fullDescription": "Custom styled scrollbar with gradient color and smooth feel.",
+    "technologies": [
+      "CSS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://psscrollbar.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 86
+  },
+  {
+    "title": "SP CAPTCHA Generator",
+    "slug": "sp-captcha-generator",
+    "category": "tools",
+    "shortDescription": "Generate random CAPTCHA images with user verification flow.",
+    "fullDescription": "Generate random CAPTCHA images with user verification flow.",
+    "technologies": [
+      "Canvas",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spcaptchagen.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 87
+  },
+  {
+    "title": "SP JS Tabs",
+    "slug": "sp-js-tabs",
+    "category": "frontend",
+    "shortDescription": "Accessible tab component with smooth animated underline indicator.",
+    "fullDescription": "Accessible tab component with smooth animated underline indicator.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spjstabs.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 88
+  },
+  {
+    "title": "SP Hamburger Menu",
+    "slug": "sp-hamburger-menu",
+    "category": "frontend",
+    "shortDescription": "Animated hamburger menu with smooth open/close morphing.",
+    "fullDescription": "Animated hamburger menu with smooth open/close morphing.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://sphamburgermenu.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 89
+  },
+  {
+    "title": "SP Name Template",
+    "slug": "sp-name-template",
+    "category": "frontend",
+    "shortDescription": "Generate stylized name card templates with various design themes.",
+    "fullDescription": "Generate stylized name card templates with various design themes.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spnametemplet.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 90
+  },
+  {
+    "title": "SP Checklist",
+    "slug": "sp-checklist",
+    "category": "tools",
+    "shortDescription": "Interactive checklist with persistent state and custom checkboxes.",
+    "fullDescription": "Interactive checklist with persistent state and custom checkboxes.",
+    "technologies": [
+      "HTML",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spchecklist.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 91
+  },
+  {
+    "title": "SP Scrolling Image",
+    "slug": "sp-scrolling-image",
+    "category": "frontend",
+    "shortDescription": "Infinite horizontal scrolling image strip with smooth CSS animation.",
+    "fullDescription": "Infinite horizontal scrolling image strip with smooth CSS animation.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spscrollingimg.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 92
+  },
+  {
+    "title": "Screen Move Catch by Eye",
+    "slug": "screen-move-catch-by-eye",
+    "category": "frontend",
+    "shortDescription": "Mouse-tracking interactive game — catch the moving element!",
+    "fullDescription": "Mouse-tracking interactive game — catch the moving element!",
+    "technologies": [
+      "JS",
+      "Canvas"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://screenmovcatchbyeye.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 93
+  },
+  {
+    "title": "Zoom In Out Effect SP",
+    "slug": "zoom-in-out-effect-sp",
+    "category": "frontend",
+    "shortDescription": "Smooth image/content zoom in and zoom out effect on interaction.",
+    "fullDescription": "Smooth image/content zoom in and zoom out effect on interaction.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://zoominouteffsp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 94
+  },
+  {
+    "title": "MSG by SP",
+    "slug": "msg-by-sp",
+    "category": "tools",
+    "shortDescription": "Message/notification toast system with animations and categories.",
+    "fullDescription": "Message/notification toast system with animations and categories.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://msgbysp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 95
+  },
+  {
+    "title": "SP Animation Collection",
+    "slug": "sp-animation-collection",
+    "category": "frontend",
+    "shortDescription": "Collection of reusable CSS keyframe animations and transitions.",
+    "fullDescription": "Collection of reusable CSS keyframe animations and transitions.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spanimation.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 96
+  },
+  {
+    "title": "Submit Button Effect",
+    "slug": "submit-button-effect",
+    "category": "frontend",
+    "shortDescription": "Animated submit button with loading state and success confirmation.",
+    "fullDescription": "Animated submit button with loading state and success confirmation.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://submitbtneffect.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 97
+  },
+  {
+    "title": "Greetings by SP",
+    "slug": "greetings-by-sp",
+    "category": "frontend",
+    "shortDescription": "Auto-detect time of day and display contextual greeting messages.",
+    "fullDescription": "Auto-detect time of day and display contextual greeting messages.",
+    "technologies": [
+      "JS",
+      "CSS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://greetingsbysp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 98
+  },
+  {
+    "title": "Add to Cart by SP",
+    "slug": "add-to-cart-by-sp",
+    "category": "tools",
+    "shortDescription": "Animated add-to-cart button with flying product animation effect.",
+    "fullDescription": "Animated add-to-cart button with flying product animation effect.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://addtocartbysp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 99
+  },
+  {
+    "title": "SP Digital Clocks",
+    "slug": "sp-digital-clocks",
+    "category": "frontend",
+    "shortDescription": "Multiple digital clock themes — binary, flip, led, and more.",
+    "fullDescription": "Multiple digital clock themes — binary, flip, led, and more.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spdigitalclocks.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 100
+  },
+  {
+    "title": "SP Tip Calculator",
+    "slug": "sp-tip-calculator",
+    "category": "tools",
+    "shortDescription": "Calculate restaurant tips by bill amount, tip %, and number of people.",
+    "fullDescription": "Calculate restaurant tips by bill amount, tip %, and number of people.",
+    "technologies": [
+      "HTML",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://sptipcalculater.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 101
+  },
+  {
+    "title": "Hover Background Animation",
+    "slug": "hover-background-animation",
+    "category": "frontend",
+    "shortDescription": "Dynamic background color transitions on hover over elements.",
+    "fullDescription": "Dynamic background color transitions on hover over elements.",
+    "technologies": [
+      "CSS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://hoverbackgroudanim.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 102
+  },
+  {
+    "title": "SP Select Box",
+    "slug": "sp-select-box",
+    "category": "frontend",
+    "shortDescription": "Beautifully styled custom select dropdown with animations.",
+    "fullDescription": "Beautifully styled custom select dropdown with animations.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spselectbox.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 103
+  },
+  {
+    "title": "SP Letter Effect",
+    "slug": "sp-letter-effect",
+    "category": "frontend",
+    "shortDescription": "Hover-triggered letter scramble and glow animation effect.",
+    "fullDescription": "Hover-triggered letter scramble and glow animation effect.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://splettereff.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 104
+  },
+  {
+    "title": "SP CSS Changer",
+    "slug": "sp-css-changer",
+    "category": "frontend",
+    "shortDescription": "Live CSS theme switcher — toggle colors, fonts, and styles in real time.",
+    "fullDescription": "Live CSS theme switcher — toggle colors, fonts, and styles in real time.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://csschangersp.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 105
+  },
+  {
+    "title": "SP Char Counter",
+    "slug": "sp-char-counter",
+    "category": "tools",
+    "shortDescription": "Live character and word counter for text inputs with limit warnings.",
+    "fullDescription": "Live character and word counter for text inputs with limit warnings.",
+    "technologies": [
+      "HTML",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spcharcounter.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 106
+  },
+  {
+    "title": "SP BMI Cal",
+    "slug": "sp-bmi-cal",
+    "category": "tools",
+    "shortDescription": "Body Mass Index calculator with health category classification.",
+    "fullDescription": "Body Mass Index calculator with health category classification.",
+    "technologies": [
+      "HTML",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://spbmical.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 107
+  },
+  {
+    "title": "SP RGB CG",
+    "slug": "sp-rgb-cg",
+    "category": "frontend",
+    "shortDescription": "RGB color gradient playground with real-time code preview.",
+    "fullDescription": "RGB color gradient playground with real-time code preview.",
+    "technologies": [
+      "CSS",
+      "JS"
+    ],
+    "image": "/images/saffron.png",
+    "liveUrl": "https://sprgbcg.netlify.app/",
+    "githubUrl": "https://github.com/spcoder0486-leg",
+    "featured": false,
+    "order": 108
+  }
+]

@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="favicon.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Sahil R. Pathan Portfolio</title>
+
+<meta name="description"
+content="Explore 80+ Full Stack, React, AI and frontend projects developed by Sahil R. Pathan.">
+
+<link rel="canonical"
+href="https://mrsahilpathanpersonalportfolio.netlify.app/projects.html">
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* Project thumbnail images inside the placeholder box */
+    .card-placeholder {
+      overflow: hidden;
+      position: relative;
+    }
+    .card-placeholder img.project-thumb {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: inherit;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <script>
+    /* Apply saved theme & language before paint to avoid flash */
+    (function(){
+      try {
+        var t = localStorage.getItem('sp-theme') || 'midnight';
+        var l = localStorage.getItem('sp-lang') || 'en';
+        document.documentElement.setAttribute('data-theme', t);
+        document.documentElement.setAttribute('data-lang', l);
+      } catch(e) {}
+    })();
+  </script>
+  <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Person",
+  "name":"Sahil R. Pathan",
+  "url":"https://mrsahilpathanpersonalportfolio.netlify.app",
+  "jobTitle":"Full Stack Developer",
+  "sameAs":[
+    "https://github.com/spcoder0486-leg",
+    "https://www.linkedin.com/in/sahil-pathan-394513261"
+  ],
+  "knowsAbout":[
+    "React",
+    "Angular",
+    "Spring Boot",
+    "Node.js",
+    "MongoDB",
+    "Java",
+    "JavaScript"
+  ]
+}
+</script>
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+<div class="grid-bg"></div>
+
+<header class="header">
+  <nav class="navbar">
+    <a href="index.html" class="logo">Explore My Projects!<span>As a fullstack developer <i data-icon="monitor"></i></span></a>
+
+    <div class="switcher-group">
+      <div class="switcher theme-switcher" id="themeSwitcher">
+        <button class="switcher-btn" id="themeBtn" aria-label="Switch theme" aria-haspopup="true" aria-expanded="false">
+          <i data-icon="palette"></i>
+        </button>
+        <ul class="switcher-menu" id="themeMenu" role="menu">
+          <li role="menuitem" data-theme-set="midnight"><span class="swatch swatch-midnight"></span>Midnight</li>
+          <li role="menuitem" data-theme-set="light"><span class="swatch swatch-light"></span>Light</li>
+          <li role="menuitem" data-theme-set="cyberpunk"><span class="swatch swatch-cyberpunk"></span>Cyberpunk</li>
+          <li role="menuitem" data-theme-set="minimal"><span class="swatch swatch-minimal"></span>Forest</li>
+          <li role="menuitem" data-theme-set="ocean"><span class="swatch swatch-ocean"></span>Ocean</li>
+          <li role="menuitem" data-theme-set="rose"><span class="swatch swatch-rose"></span>Rose</li>
+          <li role="menuitem" data-theme-set="solar"><span class="swatch swatch-solar"></span>Solar</li>
+          <li role="menuitem" data-theme-set="neon"><span class="swatch swatch-neon"></span>Neon</li>
+          <li role="menuitem" data-theme-set="violet"><span class="swatch swatch-violet"></span>Violet</li>
+        </ul>
+      </div>
+
+      <div class="switcher lang-switcher" id="langSwitcher">
+        <button class="switcher-btn" id="langBtn" aria-label="Switch language" aria-haspopup="true" aria-expanded="false">
+          <i data-icon="globe"></i> <span id="langBtnLabel">EN</span><i data-icon="chevron-down" class="lang-chevron"></i>
+        </button>
+        <ul class="switcher-menu" id="langMenu" role="menu">
+          <li role="menuitem" data-lang-set="en"><span class="lang-flag-svg"><svg viewBox="0 0 60 30" xmlns="http://www.w3.org/2000/svg" width="20" height="13"><rect width="60" height="30" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" stroke-width="4"/><path d="M30,0 V30 M0,15 H60" stroke="#fff" stroke-width="10"/><path d="M30,0 V30 M0,15 H60" stroke="#C8102E" stroke-width="6"/></svg></span><span class="lang-name">English</span></li>
+          <li role="menuitem" data-lang-set="hi"><span class="lang-flag-svg"><svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" width="20" height="13"><rect width="900" height="200" fill="#FF9933"/><rect y="200" width="900" height="200" fill="#fff"/><rect y="400" width="900" height="200" fill="#138808"/><circle cx="450" cy="300" r="80" fill="none" stroke="#000080" stroke-width="8"/><circle cx="450" cy="300" r="10" fill="#000080"/></svg></span><span class="lang-name">हिन्दी</span></li>
+          <li role="menuitem" data-lang-set="mr"><span class="lang-flag-svg"><svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" width="20" height="13"><rect width="900" height="200" fill="#FF9933"/><rect y="200" width="900" height="200" fill="#fff"/><rect y="400" width="900" height="200" fill="#138808"/><circle cx="450" cy="300" r="80" fill="none" stroke="#000080" stroke-width="8"/><circle cx="450" cy="300" r="10" fill="#000080"/></svg></span><span class="lang-name">मराठी</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="menu-toggle">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+      <li><a href="about.html" data-i18n="nav.about">About</a></li>
+      <li><a class="active" href="projects.html" data-i18n="nav.projects">Projects</a></li>
+      <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="projects-section">
+  <div class="section-header reveal">
+    <div class="section-label" data-i18n="projects.label">80+ Projects &amp; Counting</div>
+    <h2 class="section-title" data-i18n="projects.title">My <em class="highlight">Work</em></h2>
+    <div class="section-line"></div>
+    <p style="color:var(--text-muted);margin-top:1rem;font-size:0.95rem;max-width:600px;margin-left:auto;margin-right:auto;" data-i18n="projects.intro">From full-stack platforms to creative CSS experiments — here's everything I've built.</p>
+  </div>
+
+  <div class="filter-tabs reveal">
+    <button class="filter-btn active" data-filter="all" data-i18n="projects.filterAll">All Projects</button>
+    <button class="filter-btn" data-filter="fullstack" data-i18n="projects.filterFullstack">Full Stack</button>
+    <button class="filter-btn" data-filter="frontend" data-i18n="projects.filterFrontend">Frontend</button>
+    <button class="filter-btn" data-filter="react" data-i18n="projects.filterReact">React</button>
+    <button class="filter-btn" data-filter="tools" data-i18n="projects.filterTools">Tools &amp; Utils</button>
+    <button class="filter-btn" data-filter="effects" data-i18n="projects.filterEffects">CSS Effects</button>
+    <button class="filter-btn" data-filter="games" data-i18n="projects.filterGames">Games &amp; Fun</button>
+  </div>
+
+  <div class="project-grid" id="projectGrid">
+
+    <div class="project-item" data-cat="fullstack react">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/soluOW.png" alt="Solu Official Brand Website" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Solu Official Brand Website</h3>
+          <div class="project-tags"><span class="tag">React</span><span class="tag">Vite</span><span class="tag">TypeScript</span><span class="tag">Netlify</span></div>
+          <p>Professional brand website built with React.js + Vite + TypeScript, deployed on Netlify.</p>
+          <a href="https://soluofficial.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="fullstack react">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/saffron.png" alt="Saffron OTT Platform" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Saffron OTT Platform</h3>
+          <div class="project-tags"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MongoDB</span></div>
+          <p>Full-stack OTT platform — React frontend on Vercel, Node.js + Express on Render, MongoDB Atlas.</p>
+          <a href="https://saffron-ott-frontend.vercel.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="fullstack react">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/ai-interview.png" alt="SMART AiInterview Platform" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>SMART AiInterview Platform</h3>
+          <div class="project-tags"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MongoDB</span></div>
+          <p>SMART AiInterview Platform — React frontend on Vercel, Node.js + Express on Render, MongoDB Atlas.</p>
+          <a href="https://smart-interviewai-frontend.vercel.app" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+      <div class="project-item" data-cat="fullstack">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/taskflow.png" alt="TaskFlow Management System Web-app" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>TaskFlow Management System Web-app</h3>
+          <div class="project-tags"><span class="tag">React.js</span><span class="tag">Node.js</span><span class="tag">MongoDB</span></div>
+          <p>React.js + Node.js app to manage tasks and projects.</p>
+          <a href="https://taskflow-app-tau-two.vercel.app" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="netlify"></i></a>
+        </div>
+      </div>
+    </div>
+
+      <div class="project-item" data-cat="fullstack">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/hotel.png" alt="Hotel Diamond Stay Website" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Hotel Diamond Stay Website</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+          <p>React.js + Node.js app to manage hotel bookings and reservations.</p>
+          <a href="https://hoteldiamondstay.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="netlify"></i></a>
+        </div>
+      </div>
+    </div>
+
+      <div class="project-item" data-cat="fullstack">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/lgp.png" alt="Hotel Diamond Stay Website" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Luvia Global Products Website</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+          <p>Modern e-commerce website for global product sales.</p>
+          <a href="https://luviaglobalproducts.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="netlify"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="fullstack">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/sms.png" alt="School Management System" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>School Management System</h3>
+          <div class="project-tags"><span class="tag">Angular</span><span class="tag">Spring Boot</span><span class="tag">MySQL</span></div>
+          <p>Angular + Spring Boot app to manage classes, teachers, and student data with role-based login.</p>
+          <a href="https://github.com/sahilcoderrrr" class="btn-sm" target="_blank" rel="noopener noreferrer">View Code <i data-icon="github"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="fullstack react">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/signlogin.png" alt="Signup &amp; Login Full Stack" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Signup &amp; Login Full Stack</h3>
+          <div class="project-tags"><span class="tag">Angular</span><span class="tag">Spring Boot</span><span class="tag">TypeScript</span></div>
+          <p>Full-stack authentication — Angular + TypeScript frontend on Netlify, Spring Boot backend.</p>
+          <a href="https://signinandsignupformfrontweapp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/AiHP.png" alt="AI Health Predictor" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>AI Health Predictor</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span><span class="tag">AI</span></div>
+          <p>AI-powered health prediction tool. Smart, interactive, and deployed on Netlify.</p>
+          <a href="https://aihealthpredictorsp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/spw.png" alt="SP Weathercast" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>SP Weathercast</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span><span class="tag">API</span></div>
+          <p>Real-time weather web app deployed on Netlify.</p>
+          <a href="https://spweathercast.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/mppw.png" alt="Personal Portfolio Website" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Personal Portfolio Website</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Modern responsive portfolio deployed on Netlify.</p>
+          <a href="https://mrsahilpathanpersonalportfolio.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend react">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/me.png" alt="Movie Explorer" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Movie Explorer</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span><span class="tag">API</span></div>
+          <p>Browse and search movies via API. Deployed on Netlify.</p>
+          <a href="https://movieexplorerwa.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend react">
+      <div class="project-card tilt-card">
+         <div class="card-placeholder"><img src="images/spsystemsadmin.png" alt="SP Systems Admin" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>SP Systems Admin</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Systems administration dashboard site. Clean, functional UI.</p>
+          <a href="https://spsystemsadmin.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend react">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/sparksfashions.png" alt="Sparks Fashions" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Sparks Fashions</h3>
+          <div class="project-tags"><span class="tag">Frontend</span><span class="tag">Netlify</span></div>
+          <p>Fashion brand site with modern aesthetics and smooth UI.</p>
+          <a href="https://sparks-fashions.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/sphightech.png" alt="SP High Tech" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>SP High Tech</h3>
+          <div class="project-tags"><span class="tag">Frontend</span><span class="tag">Netlify</span></div>
+          <p>Tech company website with futuristic design.</p>
+          <a href="https://sphightech.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend games">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/spgamerwar.png" alt="SP Gamer War" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>SP Gamer War</h3>
+          <div class="project-tags"><span class="tag">Frontend</span><span class="tag">Gaming</span></div>
+          <p>Gaming-themed website with bold visuals and dark aesthetics.</p>
+          <a href="https://spgamerwar.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/spcaffe.png" alt="SP Caffe" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>SP Caffe</h3>
+          <div class="project-tags"><span class="tag">Frontend</span><span class="tag">Netlify</span></div>
+          <p>Café/restaurant website with warm, inviting design.</p>
+          <a href="https://spcaffe.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend react">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/spial.png" alt="SP IAL (AI Platform)" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>SP IAL (AI Platform)</h3>
+          <div class="project-tags"><span class="tag">AI</span><span class="tag">Frontend</span></div>
+          <p>AI-themed platform site. Intelligent interfaces, modern UI.</p>
+          <a href="https://spial.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/resumeswebsp.png" alt="Resumes Web SP" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Resumes Web SP</h3>
+          <div class="project-tags"><span class="tag">Frontend</span><span class="tag">Netlify</span></div>
+          <p>Resume/CV builder and showcase platform.</p>
+          <a href="https://resumeswebsp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend react">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/spcryptocoin.png" alt="SP Crypto Coin" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>SP Crypto Coin</h3>
+          <div class="project-tags"><span class="tag">Crypto</span><span class="tag">Frontend</span></div>
+          <p>Cryptocurrency themed website with live UI components.</p>
+          <a href="https://sp-cryptocoin.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend react">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/shopsecomerce.png" alt="Shop S Ecommerce" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Shop S Ecommerce</h3>
+          <div class="project-tags"><span class="tag">E-Commerce</span><span class="tag">Frontend</span></div>
+          <p>E-commerce shop frontend with product listings and cart UI.</p>
+          <a href="https://shopsecomerce.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/spcarbooks.png" alt="SP Car Books" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>SP Car Books</h3>
+          <div class="project-tags"><span class="tag">Frontend</span><span class="tag">Netlify</span></div>
+          <p>Car booking/showcase website with clean automotive design.</p>
+          <a href="https://spcarbooks.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/spfammas.png" alt="SP Fammas" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>SP Fammas</h3>
+          <div class="project-tags"><span class="tag">Frontend</span><span class="tag">Netlify</span></div>
+          <p>Family/lifestyle website with warm, natural design language.</p>
+          <a href="https://spfammas.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend react">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/spfinancenetw.png" alt="SP Finance Network" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>SP Finance Network</h3>
+          <div class="project-tags"><span class="tag">Finance</span><span class="tag">Frontend</span></div>
+          <p>Finance platform website with professional, trustworthy design.</p>
+          <a href="https://spfinancenetw.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/spgrandschool.png" alt="SP Grand School" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>SP Grand School</h3>
+          <div class="project-tags"><span class="tag">Education</span><span class="tag">Frontend</span></div>
+          <p>School website with academic information, clean UI layout.</p>
+          <a href="https://spgrandschool.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/spgrowing.png" alt="SP Growing" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>SP Growing</h3>
+          <div class="project-tags"><span class="tag">Frontend</span><span class="tag">Netlify</span></div>
+          <p>Growth/startup themed website with inspiring modern design.</p>
+          <a href="https://spgrowing.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend react">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/newspbox.png" alt="New SP Box (News)" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>New SP Box (News)</h3>
+          <div class="project-tags"><span class="tag">News</span><span class="tag">Frontend</span></div>
+          <p>News portal with categorized articles and responsive layout.</p>
+          <a href="https://newspbox.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/sppodcastweb.png" alt="SP Podcast Web" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>SP Podcast Web</h3>
+          <div class="project-tags"><span class="tag">Audio</span><span class="tag">Frontend</span></div>
+          <p>Podcast platform website with episode listings and audio UI.</p>
+          <a href="https://s-podcast-web.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/animewebbysp.png" alt="Anime Web by SP" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Anime Web by SP</h3>
+          <div class="project-tags"><span class="tag">Entertainment</span><span class="tag">Frontend</span></div>
+          <p>Anime-themed website with vibrant visuals and smooth animations.</p>
+          <a href="https://animewebbysp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/nubisp.png" alt="NUBI SP" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>NUBI SP</h3>
+          <div class="project-tags"><span class="tag">Creative</span><span class="tag">Frontend</span></div>
+          <p>Creative project site with artistic design and interactive elements.</p>
+          <a href="https://nubisp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/pstudio-cp.png" alt="P Studio CP" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>P Studio CP</h3>
+          <div class="project-tags"><span class="tag">Photography</span><span class="tag">Frontend</span></div>
+          <p>Photography studio portfolio site with gallery and booking UI.</p>
+          <a href="https://pstudio-cp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend react">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/spaic.png" alt="SP AIC (AI Companion)" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>SP AIC (AI Companion)</h3>
+          <div class="project-tags"><span class="tag">AI</span><span class="tag">Frontend</span></div>
+          <p>AI companion interface with smart, conversational UI design.</p>
+          <a href="https://spaic.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend react">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/sprite-web.png" alt="Sprite Web" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Sprite Web</h3>
+          <div class="project-tags"><span class="tag">Frontend</span><span class="tag">Creative</span></div>
+          <p>Creative web project with sprite animations and engaging interactions.</p>
+          <a href="https://sprite-web.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/byp-shops.png" alt="BYP Shops" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>BYP Shops</h3>
+          <div class="project-tags"><span class="tag">E-Commerce</span><span class="tag">Frontend</span></div>
+          <p>Shopping platform UI with product showcase and modern layout.</p>
+          <a href="https://bypshops.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="frontend">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/walk-sptar.png" alt="Walk SP TAR" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Walk SP TAR</h3>
+          <div class="project-tags"><span class="tag">Frontend</span><span class="tag">Netlify</span></div>
+          <p>Walking/travel app website with map-inspired UI and smooth layout.</p>
+          <a href="https://walksptar.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/tm.png" alt="Task Manager" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Task Manager</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Productivity task manager with add/remove/complete functionality.</p>
+          <a href="https://taskmanager-com.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/et.png" alt="Expense Tracker" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Expense Tracker</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Track income and expenses with live balance calculation.</p>
+          <a href="https://expensetrackerwa.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/bmi.png" alt="BMI Calculator" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>BMI Calculator</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Calculate BMI with visual health range indicators.</p>
+          <a href="https://bmicalculatorp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/loan.png" alt="Loan Calculator" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Loan Calculator</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Calculate EMIs and loan repayments with detailed breakdowns.</p>
+          <a href="https://loancalculatorp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/dcw.png" alt="SP Calculator" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>SP Calculator</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Feature-rich calculator with clean UI and keyboard support.</p>
+          <a href="https://spcalci.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/pc.png" alt="Palindrome Checker" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Palindrome Checker</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">JS</span></div>
+          <p>Instantly check if a string is a palindrome with visual feedback.</p>
+          <a href="https://palindromecheckerw.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/aud.png" alt="ASCII &amp; Unicode Detector" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>ASCII &amp; Unicode Detector</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">JS</span></div>
+          <p>Detect and display ASCII / Unicode values of any character.</p>
+          <a href="https://asciiandunicodechardetecterw.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/dc.png" alt="Digital Clock" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Digital Clock</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Beautiful live-updating digital clock. Smooth and minimal.</p>
+          <a href="https://digitalclockaps.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/icsc.png" alt="Internet Connection Status Checker" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Internet Connection Status Checker</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">JS</span></div>
+          <p>Check your internet connectivity status in real time.</p>
+          <a href="https://internetconnectionstatuscheckerw.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/countera.png" alt="Counter Application" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Counter Application</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">JS</span></div>
+          <p>Simple, elegant counter with increment/decrement/reset.</p>
+          <a href="https://counterapplicationw.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/rgbcg.png" alt="RGB Color Generator" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>RGB Color Generator</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Generate and preview RGB colors with an interactive slider UI.</p>
+          <a href="https://rgbcolorgeneratorw.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/image.png" alt="Random Color Generator" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Random Color Generator</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">JS</span></div>
+          <p>Generates random RGB colors on click with hex code display.</p>
+          <a href="https://randomcolorgeneratorp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+     <div class="project-item" data-cat="fullstack">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="graduation-cap"></i></div>
+        <div class="project-info">
+          <h3>Hostel Management System</h3>
+          <div class="project-tags"><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MySQL</span></div>
+          <p>Login, room allotment, staff &amp; student dashboards. Full backend with Node.js + Express + MySQL.</p>
+          <a href="https://mhmsp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="star"></i></div>
+        <div class="project-info">
+          <h3>SP 3D Card Effect</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Interactive 3D tilt card effect with perspective transforms.</p>
+          <a href="https://sp3dcard.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="lightbulb"></i></div>
+        <div class="project-info">
+          <h3>Spotlight Effect</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Mouse-following spotlight light effect using CSS &amp; Canvas.</p>
+          <a href="https://spotlighteffsp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="type"></i></div>
+        <div class="project-info">
+          <h3>SP Text Animation</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Various impressive CSS text animation effects and transitions.</p>
+          <a href="https://sptextanimation.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="star"></i></div>
+        <div class="project-info">
+          <h3>SVG Animation SP</h3>
+          <div class="project-tags"><span class="tag">SVG</span><span class="tag">CSS</span></div>
+          <p>SVG-based animation showcase with morphing and path effects.</p>
+          <a href="https://svganimationsp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="mouse-pointer"></i></div>
+        <div class="project-info">
+          <h3>SP Cursor Effect</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Custom animated cursor with trailing glow and hover effects.</p>
+          <a href="https://spcursereff.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="activity"></i></div>
+        <div class="project-info">
+          <h3>SP 3D Parallax</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Immersive 3D parallax scrolling effect with depth layers.</p>
+          <a href="https://sp3dparalex.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="message-square"></i></div>
+        <div class="project-info">
+          <h3>Isometric Words SP</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">3D</span></div>
+          <p>3D isometric text rendering with perspective CSS transforms.</p>
+          <a href="https://spisometricwords.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="circle"></i></div>
+        <div class="project-info">
+          <h3>Parrot Round Effect</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">Animation</span></div>
+          <p>Circular rotation animation effect with smooth transitions.</p>
+          <a href="https://parrotroundeffect.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="type"></i></div>
+        <div class="project-info">
+          <h3>SP Jumping Letters</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Text animation where letters jump and bounce with style.</p>
+          <a href="https://spjumpingletters.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="games tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><img src="images/particlerain.png" alt="Particle Rain Game" class="project-thumb" /></div>
+        <div class="project-info">
+          <h3>Particle Rain Game</h3>
+          <div class="project-tags"><span class="tag">Canvas</span><span class="tag">JS</span><span class="tag">Game</span></div>
+          <p>Interactive particle rain simulation game built with Canvas API.</p>
+          <a href="https://particlegame.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="games tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="cloud"></i></div>
+        <div class="project-info">
+          <h3>SP Rain Drops</h3>
+          <div class="project-tags"><span class="tag">Canvas</span><span class="tag">JS</span></div>
+          <p>Beautiful rain drop simulation using HTML5 Canvas animation.</p>
+          <a href="https://spraindrops.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="games tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="circle"></i></div>
+        <div class="project-info">
+          <h3>SP Floating Bubble</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Interactive floating bubble animation with click-to-pop effects.</p>
+          <a href="https://spfloatingbubble.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="games">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="activity"></i></div>
+        <div class="project-info">
+          <h3>SP Corona Counter</h3>
+          <div class="project-tags"><span class="tag">JS</span><span class="tag">API</span></div>
+          <p>COVID-19 statistics tracker with real-time counter updates.</p>
+          <a href="https://spcoronacounter.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="lock"></i></div>
+        <div class="project-info">
+          <h3>SP Password Generator</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">JS</span></div>
+          <p>Secure password generator with length and character controls.</p>
+          <a href="https://sppwdgenrtr.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="search"></i></div>
+        <div class="project-info">
+          <h3>SP Search Box</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Animated search box with live-filter functionality.</p>
+          <a href="https://spsearchbox.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="clock"></i></div>
+        <div class="project-info">
+          <h3>SP Stopwatch</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">JS</span></div>
+          <p>Precise stopwatch with start/stop/reset and lap timing.</p>
+          <a href="https://stopwatchsps.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="calendar"></i></div>
+        <div class="project-info">
+          <h3>What Is Today SP</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">JS</span></div>
+          <p>Display today's date, day, and time in a beautiful card format.</p>
+          <a href="https://whatistodaysp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="bar-chart"></i></div>
+        <div class="project-info">
+          <h3>How Much You Survived SP</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">JS</span></div>
+          <p>Calculate how much of your life you've lived — with motivational output!</p>
+          <a href="https://howmuchyouservived-sp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="message-square"></i></div>
+        <div class="project-info">
+          <h3>Random Quote Generator</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">JS</span></div>
+          <p>Generate random inspirational quotes with smooth fade transitions.</p>
+          <a href="https://randomquotegenrtr.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="image"></i></div>
+        <div class="project-info">
+          <h3>SP Image Slider</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Smooth responsive image slider with auto-play and dot navigation.</p>
+          <a href="https://spimageslider.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="folder"></i></div>
+        <div class="project-info">
+          <h3>SP Expand Cards</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Beautiful expanding card panels with smooth CSS transitions.</p>
+          <a href="https://spexpandcards.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="pen-tool"></i></div>
+        <div class="project-info">
+          <h3>Triadic Color Effect</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Explore triadic color theory with interactive visual palette.</p>
+          <a href="https://triadiccoloreff.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="layers"></i></div>
+        <div class="project-info">
+          <h3>SP Timeline</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Animated vertical timeline with scroll-triggered reveal effects.</p>
+          <a href="https://sptimeline.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="shield"></i></div>
+        <div class="project-info">
+          <h3>SP Illumination</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">Animation</span></div>
+          <p>Glowing illumination effect with dynamic light rays.</p>
+          <a href="https://illuminationsp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="image"></i></div>
+        <div class="project-info">
+          <h3>Gallery Hover Effect</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Elegant image gallery with stunning hover overlay animations.</p>
+          <a href="https://galleryhovereffectsp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="refresh-cw"></i></div>
+        <div class="project-info">
+          <h3>SP Rotating Text</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Circular rotating text animation around a central element.</p>
+          <a href="https://sprotatingtext.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="star"></i></div>
+        <div class="project-info">
+          <h3>SP Long Shadow</h3>
+          <div class="project-tags"><span class="tag">CSS</span></div>
+          <p>Material design inspired long shadow text effect in pure CSS.</p>
+          <a href="https://splongshadow.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="zap"></i></div>
+        <div class="project-info">
+          <h3>SP Bell Notification</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Animated notification bell with badge counter and dropdown.</p>
+          <a href="https://spbellnotification.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="grid"></i></div>
+        <div class="project-info">
+          <h3>SP Menu Effect</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Creative animated navigation menu with magnetic hover effects.</p>
+          <a href="https://spmenueffect.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="clipboard"></i></div>
+        <div class="project-info">
+          <h3>SP Accordion</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Smooth accordion FAQ component with animated expand/collapse.</p>
+          <a href="https://spaccordion.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="hash"></i></div>
+        <div class="project-info">
+          <h3>SP Key Codes</h3>
+          <div class="project-tags"><span class="tag">JS</span></div>
+          <p>Display keyboard key codes and event properties on keypress.</p>
+          <a href="https://spkeycodes.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="sliders"></i></div>
+        <div class="project-info">
+          <h3>SP Background Color Changer</h3>
+          <div class="project-tags"><span class="tag">JS</span><span class="tag">CSS</span></div>
+          <p>Instantly change page background color with smooth transitions.</p>
+          <a href="https://spbackgroundcolorc.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="envelope"></i></div>
+        <div class="project-info">
+          <h3>SP Newsletter Popup</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Animated newsletter modal popup with smooth entrance/exit.</p>
+          <a href="https://spnewsletterpopup.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="scale"></i></div>
+        <div class="project-info">
+          <h3>SP Weight Converter</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">JS</span></div>
+          <p>Convert between kg, lbs, grams and more weight units instantly.</p>
+          <a href="https://spweightconv.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="hash"></i></div>
+        <div class="project-info">
+          <h3>Calc by SP</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Clean calculator with history tracking and keyboard input.</p>
+          <a href="https://calcbysp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="monitor"></i></div>
+        <div class="project-info">
+          <h3>SP Scratch Effect</h3>
+          <div class="project-tags"><span class="tag">Canvas</span><span class="tag">JS</span></div>
+          <p>Scratch card reveal animation built with HTML5 Canvas API.</p>
+          <a href="https://spscratcheffect.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="image"></i></div>
+        <div class="project-info">
+          <h3>SP Parallax Effect</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Multi-layer parallax scrolling with depth and atmospheric effects.</p>
+          <a href="https://spparalaxeff.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="file-text"></i></div>
+        <div class="project-info">
+          <h3>PSS Scrollbar</h3>
+          <div class="project-tags"><span class="tag">CSS</span></div>
+          <p>Custom styled scrollbar with gradient color and smooth feel.</p>
+          <a href="https://psscrollbar.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="lock"></i></div>
+        <div class="project-info">
+          <h3>SP CAPTCHA Generator</h3>
+          <div class="project-tags"><span class="tag">Canvas</span><span class="tag">JS</span></div>
+          <p>Generate random CAPTCHA images with user verification flow.</p>
+          <a href="https://spcaptchagen.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="folder"></i></div>
+        <div class="project-info">
+          <h3>SP JS Tabs</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Accessible tab component with smooth animated underline indicator.</p>
+          <a href="https://spjstabs.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="shopping-cart"></i></div>
+        <div class="project-info">
+          <h3>SP Hamburger Menu</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Animated hamburger menu with smooth open/close morphing.</p>
+          <a href="https://sphamburgermenu.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="file-text"></i></div>
+        <div class="project-info">
+          <h3>SP Name Template</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Generate stylized name card templates with various design themes.</p>
+          <a href="https://spnametemplet.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="check"></i></div>
+        <div class="project-info">
+          <h3>SP Checklist</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">JS</span></div>
+          <p>Interactive checklist with persistent state and custom checkboxes.</p>
+          <a href="https://spchecklist.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="video"></i></div>
+        <div class="project-info">
+          <h3>SP Scrolling Image</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Infinite horizontal scrolling image strip with smooth CSS animation.</p>
+          <a href="https://spscrollingimg.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects games">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="mouse-pointer"></i></div>
+        <div class="project-info">
+          <h3>Screen Move Catch by Eye</h3>
+          <div class="project-tags"><span class="tag">JS</span><span class="tag">Canvas</span></div>
+          <p>Mouse-tracking interactive game — catch the moving element!</p>
+          <a href="https://screenmovcatchbyeye.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="grid"></i></div>
+        <div class="project-info">
+          <h3>Zoom In Out Effect SP</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Smooth image/content zoom in and zoom out effect on interaction.</p>
+          <a href="https://zoominouteffsp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="message-square"></i></div>
+        <div class="project-info">
+          <h3>MSG by SP</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Message/notification toast system with animations and categories.</p>
+          <a href="https://msgbysp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="refresh-cw"></i></div>
+        <div class="project-info">
+          <h3>SP Animation Collection</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Collection of reusable CSS keyframe animations and transitions.</p>
+          <a href="https://spanimation.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="star"></i></div>
+        <div class="project-info">
+          <h3>Submit Button Effect</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Animated submit button with loading state and success confirmation.</p>
+          <a href="https://submitbtneffect.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="award"></i></div>
+        <div class="project-info">
+          <h3>Greetings by SP</h3>
+          <div class="project-tags"><span class="tag">JS</span><span class="tag">CSS</span></div>
+          <p>Auto-detect time of day and display contextual greeting messages.</p>
+          <a href="https://greetingsbysp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="shopping-cart"></i></div>
+        <div class="project-info">
+          <h3>Add to Cart by SP</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Animated add-to-cart button with flying product animation effect.</p>
+          <a href="https://addtocartbysp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="pen-tool"></i></div>
+        <div class="project-info">
+          <h3>SP Digital Clocks</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Multiple digital clock themes — binary, flip, led, and more.</p>
+          <a href="https://spdigitalclocks.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="shopping-cart"></i></div>
+        <div class="project-info">
+          <h3>SP Tip Calculator</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">JS</span></div>
+          <p>Calculate restaurant tips by bill amount, tip %, and number of people.</p>
+          <a href="https://sptipcalculater.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="image"></i></div>
+        <div class="project-info">
+          <h3>Hover Background Animation</h3>
+          <div class="project-tags"><span class="tag">CSS</span></div>
+          <p>Dynamic background color transitions on hover over elements.</p>
+          <a href="https://hoverbackgroudanim.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="box"></i></div>
+        <div class="project-info">
+          <h3>SP Select Box</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Beautifully styled custom select dropdown with animations.</p>
+          <a href="https://spselectbox.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="type"></i></div>
+        <div class="project-info">
+          <h3>SP Letter Effect</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Hover-triggered letter scramble and glow animation effect.</p>
+          <a href="https://splettereff.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="tag"></i></div>
+        <div class="project-info">
+          <h3>SP CSS Changer</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>Live CSS theme switcher — toggle colors, fonts, and styles in real time.</p>
+          <a href="https://csschangersp.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="type"></i></div>
+        <div class="project-info">
+          <h3>SP Char Counter</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">JS</span></div>
+          <p>Live character and word counter for text inputs with limit warnings.</p>
+          <a href="https://spcharcounter.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="tools">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="trending-up"></i></div>
+        <div class="project-info">
+          <h3>SP BMI Cal</h3>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">JS</span></div>
+          <p>Body Mass Index calculator with health category classification.</p>
+          <a href="https://spbmical.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item" data-cat="effects">
+      <div class="project-card tilt-card">
+        <div class="card-placeholder"><i data-icon="activity"></i></div>
+        <div class="project-info">
+          <h3>SP RGB CG</h3>
+          <div class="project-tags"><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <p>RGB color gradient playground with real-time code preview.</p>
+          <a href="https://sprgbcg.netlify.app/" class="btn-sm" target="_blank" rel="noopener noreferrer">Live Demo <i data-icon="external-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 Sahil R. Pathan — Crafted with care.</p>
+  <div class="socials">
+<a href="https://github.com/spcoder0486-leg"
+   target="_blank"
+   rel="noopener noreferrer"
+   title="GitHub"
+   aria-label="GitHub Profile">
+  <i data-icon="github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/sahil-pathan-394513261"
+   target="_blank"
+   rel="noopener noreferrer"
+   title="LinkedIn"
+   aria-label="LinkedIn Profile">
+  <i data-icon="linkedin"></i>
+</a>
+
+<a href="mailto:sahilpathan52004@gmail.com"
+   title="Email"
+   aria-label="Send Email">
+  <i data-icon="envelope"></i>
+</a>
+  </div>
+</footer>
+
+<script defer src="js/icons.js"></script>
+<script defer src="js/i18n.js"></script>
+<script defer src="js/script.js"></script>
+<script defer src="js/chaos.js"></script>
+<script>
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const projectItems = document.querySelectorAll('.project-item');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.getAttribute('data-filter');
+      projectItems.forEach(item => {
+        if (filter === 'all') {
+          item.classList.remove('hidden');
+        } else {
+          const cats = item.getAttribute('data-cat') || '';
+          if (cats.includes(filter)) {
+            item.classList.remove('hidden');
+          } else {
+            item.classList.add('hidden');
+          }
+        }
+      });
+    });
+  });
+</script>
+</body>
+</html>
