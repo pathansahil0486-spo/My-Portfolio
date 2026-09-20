@@ -3,6 +3,8 @@
 # ⚡ SAHIL RAMJAN PATHAN — ADVANCED MERN PORTFOLIO
 ### *Production Full-Stack Web Application • 3D Interactive Showcase • Dynamic Admin CMS*
 
+[![Live Demo](https://img.shields.io/badge/Live_Portfolio-sahilpathan.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sahilpathan.vercel.app)
+[![API Status](https://img.shields.io/badge/Backend_API-sahil--portfolio--api.onrender.com-46a2f8?style=for-the-badge&logo=render&logoColor=white)](https://sahil-portfolio-api.onrender.com)
 [![MERN Stack](https://img.shields.io/badge/Stack-MERN-6366f1?style=for-the-badge&logo=react&logoColor=white)](https://github.com)
 [![React 18](https://img.shields.io/badge/React-18.3-61dafb?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
