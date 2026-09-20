@@ -4,6 +4,20 @@ import App from './App.jsx';
 import { PortfolioProvider } from './context/PortfolioContext.jsx';
 import './index.css';
 
+// ── Production API Base URL Routing ──────────────────────────────────────────
+// If VITE_API_URL is configured (e.g. Render backend URL), automatically route /api requests to it
+if (import.meta.env.VITE_API_URL) {
+  const apiBase = import.meta.env.VITE_API_URL.replace(/\/$/, '');
+  const originalFetch = window.fetch;
+  window.fetch = (input, init) => {
+    if (typeof input === 'string' && input.startsWith('/api')) {
+      return originalFetch(`${apiBase}${input}`, init);
+    }
+    return originalFetch(input, init);
+  };
+}
+// ─────────────────────────────────────────────────────────────────────────────
+
 // ── Scrolling Browser Tab Title ──────────────────────────────────────────────
 const TITLE_PREFIX = 'Sahil Ramjan Pathan  |  ';
 const TITLE_SCROLL = 'MERN Stack Developer -FullStack Web Developer     -React.js & Node.js   -MongoDB Atlas  -Published Researcher    ';
