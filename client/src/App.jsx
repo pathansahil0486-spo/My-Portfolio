@@ -17,6 +17,8 @@ import ProjectModal from './components/public/ProjectModal';
 import AdminLogin from './components/admin/AdminLogin';
 import AdminDashboard from './components/admin/AdminDashboard';
 
+import BrandLoader from './components/common/BrandLoader';
+
 function App() {
   const { currentView, setCurrentView, adminToken, loading, error } = usePortfolio();
 
@@ -36,60 +38,7 @@ function App() {
   }, [setCurrentView]);
 
   if (loading) {
-    return (
-      <div className="portfolio-loading-screen">
-        <div className="loader-orbit">
-          <div className="orbit-spin"></div>
-          <div className="loader-core">SP</div>
-        </div>
-        <p className="loader-text">Loading Sahil Pathan's Portfolio from MongoDB Atlas...</p>
-        <style>{`
-          .portfolio-loading-screen {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background: #070913;
-            color: #f8fafc;
-            gap: 1.5rem;
-          }
-          .loader-orbit {
-            position: relative;
-            width: 70px;
-            height: 70px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .orbit-spin {
-            position: absolute;
-            inset: 0;
-            border-radius: 50%;
-            border: 3px solid transparent;
-            border-top-color: #6366f1;
-            border-right-color: #06b6d4;
-            animation: spin 1s linear infinite;
-          }
-          .loader-core {
-            font-size: 1.2rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, #6366f1, #06b6d4);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-family: 'JetBrains Mono', monospace;
-          }
-          .loader-text {
-            font-size: 0.95rem;
-            color: #94a3b8;
-            letter-spacing: 0.05em;
-          }
-          @keyframes spin {
-            to { transform: rotate(360deg); }
-          }
-        `}</style>
-      </div>
-    );
+    return <BrandLoader />;
   }
 
   // Render Admin View

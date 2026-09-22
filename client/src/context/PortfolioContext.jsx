@@ -1,17 +1,25 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import initialPortfolioData from '../data/initialPortfolioData.json';
 
 const PortfolioContext = createContext();
 
 export const PortfolioProvider = ({ children }) => {
-  const [data, setData] = useState({
-    profile: {},
-    projects: [],
-    experiences: [],
-    skills: [],
-    education: [],
-    certifications: [],
-    publication: {}
+  // Instant Hydration: Load cached data if available, otherwise bundled initial data
+  const [data, setData] = useState(() => {
+    try {
+      const cached = localStorage.getItem('sahil-portfolio-cache');
+      if (cached) {
+        const parsed = JSON.parse(cached);
+        if (parsed && parsed.projects && parsed.projects.length > 0) {
+          return parsed;
+        }
+      }
+    } catch (e) {
+      console.warn('Could not read cached portfolio data:', e);
+    }
+    return initialPortfolioData;
   });
+
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -69,25 +77,38 @@ export const PortfolioProvider = ({ children }) => {
     localStorage.setItem('sahil-theme', theme);
   }, [theme]);
 
-  // Fetch all portfolio data from MongoDB backend
-  const fetchPortfolioData = async () => {
+  // Fetch all portfolio data from backend with silent background sync
+  const fetchPortfolioData = async (isBackground = false) => {
     try {
-      setLoading(true);
+      if (!isBackground) setLoading(true);
       const res = await fetch('/api/portfolio/all');
       if (!res.ok) throw new Error('Failed to fetch portfolio data');
       const json = await res.json();
-      setData(json);
+      if (json && json.projects && json.projects.length > 0) {
+        setData(json);
+        try {
+          localStorage.setItem('sahil-portfolio-cache', JSON.stringify(json));
+        } catch (e) {}
+      }
       setError(null);
     } catch (err) {
-      console.error('Error loading portfolio:', err);
+      console.warn('Backend sync notice (using cached/initial data):', err.message);
       setError(err.message);
     } finally {
-      setLoading(false);
+      if (!isBackground) setLoading(false);
     }
   };
 
   useEffect(() => {
-    fetchPortfolioData();
+    // Show sleek brand intro for a fast ~700ms, then let the user in instantly
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 700);
+
+    // Fetch fresh updates from MongoDB Atlas in background
+    fetchPortfolioData(true);
+
+    return () => clearTimeout(timer);
   }, []);
 
   // Verify Admin Token on load

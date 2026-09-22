@@ -160,14 +160,14 @@ const AdminDashboard = () => {
 
   // Popular sample image assets available in workspace
   const workspaceImages = [
+    { label: 'Flashly Digital', path: '/images/flashly.png' },
+    { label: 'AcadPrime ERP', path: '/images/erp.png' },
     { label: 'Saffron OTT', path: '/images/saffron.png' },
     { label: 'Solu Official', path: '/images/soluOW.png' },
-    { label: 'Flashly / Shops', path: '/images/byp-shops.png' },
     { label: 'AI Interview', path: '/images/ai-interview.png' },
     { label: 'TaskFlow', path: '/images/taskflow.png' },
     { label: 'Hotel Diamond', path: '/images/hotel.png' },
     { label: 'School Management', path: '/images/sms.png' },
-    { label: 'AcadPrime ERP', path: '/images/spgrandschool.png' },
     { label: 'JeevanSathiHub', path: '/images/spfammas.png' },
     { label: 'Bus Booking', path: '/images/spcarbooks.png' },
     { label: 'Profile Photo', path: '/images/mypimg.jpeg' }
