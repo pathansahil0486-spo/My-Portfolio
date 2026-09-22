@@ -160,6 +160,7 @@ const AdminDashboard = () => {
 
   // Popular sample image assets available in workspace
   const workspaceImages = [
+    { label: 'Solirity Design', path: '/images/solirity.png' },
     { label: 'Flashly Digital', path: '/images/flashly.png' },
     { label: 'AcadPrime ERP', path: '/images/erp.png' },
     { label: 'Saffron OTT', path: '/images/saffron.png' },

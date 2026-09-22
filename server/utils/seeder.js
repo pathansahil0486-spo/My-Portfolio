@@ -139,6 +139,19 @@ export const seedDatabase = async () => {
 
       const flagshipProjects = [
         {
+          title: 'Solirity – Premium Creative Design Agency Platform',
+          slug: 'solirity-design-agency',
+          category: 'mern',
+          shortDescription: 'Modern MERN full-stack creative design platform delivering fast branding, logos, pitch decks, and digital identity kits.',
+          fullDescription: 'Full-stack MERN agency platform featuring modern startup design catalog, real-time pricing calculators, fast turnaround delivery pipelines, and interactive service inquiry management.',
+          technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB Atlas', 'Vercel'],
+          image: '/images/solirity.png',
+          liveUrl: 'https://solirity-frontend.vercel.app/',
+          githubUrl: 'https://github.com/pathansahil0486-spo',
+          featured: true,
+          order: 1
+        },
+        {
           title: 'Flashly Digital (Live Production Platform)',
           slug: 'flashly-digital',
           category: 'mern',
@@ -149,7 +162,7 @@ export const seedDatabase = async () => {
           liveUrl: 'https://flashlydigital.com',
           githubUrl: 'https://github.com/pathansahil0486-spo',
           featured: true,
-          order: 1
+          order: 2
         },
         {
           title: 'AcadPrime College ERP SaaS Platform',
@@ -162,7 +175,7 @@ export const seedDatabase = async () => {
           liveUrl: 'https://mrsahilpathanpersonalportfolio.netlify.app/projects.html',
           githubUrl: 'https://github.com/pathansahil0486-spo',
           featured: true,
-          order: 2
+          order: 3
         },
         {
           title: 'JeevanSathiHub Matrimony Platform',

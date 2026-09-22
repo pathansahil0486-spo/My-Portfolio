@@ -37,6 +37,25 @@
   },
   "projects": [
     {
+      "title": "Solirity – Premium Creative Design Agency Platform",
+      "slug": "solirity-design-agency",
+      "category": "mern",
+      "shortDescription": "Modern MERN full-stack creative design platform delivering fast branding, logos, pitch decks, and digital identity kits.",
+      "fullDescription": "Full-stack MERN agency platform featuring modern startup design catalog, real-time pricing calculators, fast turnaround delivery pipelines, and interactive service inquiry management.",
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB Atlas",
+        "Vercel"
+      ],
+      "image": "/images/solirity.png",
+      "liveUrl": "https://solirity-frontend.vercel.app/",
+      "githubUrl": "https://github.com/pathansahil0486-spo",
+      "featured": true,
+      "order": 1
+    },
+    {
       "_id": "6aae5fa308ecd50611b243b2",
       "title": "Flashly Digital (Live Production Platform)",
       "slug": "flashly-digital",
@@ -56,7 +75,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": true,
       "highlights": [],
-      "order": 1,
+      "order": 2,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.373Z",
       "updatedAt": "2026-09-22T18:34:02.154Z"
@@ -81,7 +100,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": true,
       "highlights": [],
-      "order": 2,
+      "order": 3,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.376Z",
       "updatedAt": "2026-09-22T18:37:41.291Z"
@@ -180,7 +199,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": true,
       "highlights": [],
-      "order": 8,
+      "order": 7,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.376Z",
       "updatedAt": "2026-09-19T12:33:37.932Z"
@@ -202,7 +221,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": true,
       "highlights": [],
-      "order": 12,
+      "order": 8,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.376Z",
       "updatedAt": "2026-09-19T12:33:37.981Z"
@@ -224,7 +243,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": true,
       "highlights": [],
-      "order": 13,
+      "order": 9,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.376Z",
       "updatedAt": "2026-09-19T12:33:37.994Z"
@@ -246,7 +265,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": true,
       "highlights": [],
-      "order": 14,
+      "order": 10,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.376Z",
       "updatedAt": "2026-09-19T12:33:38.005Z"
@@ -268,7 +287,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": true,
       "highlights": [],
-      "order": 15,
+      "order": 11,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.376Z",
       "updatedAt": "2026-09-19T12:33:38.017Z"
@@ -290,7 +309,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": true,
       "highlights": [],
-      "order": 16,
+      "order": 12,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.376Z",
       "updatedAt": "2026-09-19T12:33:38.027Z"
@@ -313,7 +332,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 17,
+      "order": 13,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.376Z",
       "updatedAt": "2026-09-19T12:33:38.039Z"
@@ -336,7 +355,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 18,
+      "order": 14,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.376Z",
       "updatedAt": "2026-09-19T12:33:38.049Z"
@@ -358,7 +377,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 19,
+      "order": 15,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.376Z",
       "updatedAt": "2026-09-19T12:33:38.059Z"
@@ -381,7 +400,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 20,
+      "order": 16,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.070Z"
@@ -403,7 +422,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 21,
+      "order": 17,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.081Z"
@@ -424,7 +443,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 22,
+      "order": 18,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.095Z"
@@ -445,7 +464,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 23,
+      "order": 19,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.108Z"
@@ -466,7 +485,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 24,
+      "order": 20,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.121Z"
@@ -487,7 +506,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 25,
+      "order": 21,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.133Z"
@@ -508,7 +527,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 26,
+      "order": 22,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.146Z"
@@ -529,7 +548,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 27,
+      "order": 23,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.158Z"
@@ -550,7 +569,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 28,
+      "order": 24,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.170Z"
@@ -571,7 +590,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 29,
+      "order": 25,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.179Z"
@@ -592,7 +611,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 30,
+      "order": 26,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.188Z"
@@ -613,7 +632,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 31,
+      "order": 27,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.198Z"
@@ -634,7 +653,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 32,
+      "order": 28,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.209Z"
@@ -655,7 +674,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 33,
+      "order": 29,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.218Z"
@@ -676,7 +695,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 34,
+      "order": 30,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.227Z"
@@ -697,7 +716,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 35,
+      "order": 31,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.239Z"
@@ -718,7 +737,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 36,
+      "order": 32,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.247Z"
@@ -739,7 +758,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 37,
+      "order": 33,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.256Z"
@@ -760,7 +779,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 38,
+      "order": 34,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.265Z"
@@ -781,7 +800,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 39,
+      "order": 35,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.274Z"
@@ -802,7 +821,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 40,
+      "order": 36,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.283Z"
@@ -823,7 +842,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 41,
+      "order": 37,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.295Z"
@@ -844,7 +863,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 42,
+      "order": 38,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.304Z"
@@ -865,7 +884,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 43,
+      "order": 39,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.318Z"
@@ -887,7 +906,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 44,
+      "order": 40,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.327Z"
@@ -909,7 +928,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 45,
+      "order": 41,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.339Z"
@@ -931,7 +950,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 46,
+      "order": 42,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.348Z"
@@ -953,7 +972,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 47,
+      "order": 43,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.357Z"
@@ -975,7 +994,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 48,
+      "order": 44,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.377Z",
       "updatedAt": "2026-09-19T12:33:38.366Z"
@@ -996,7 +1015,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 49,
+      "order": 45,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.376Z"
@@ -1017,7 +1036,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 50,
+      "order": 46,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.387Z"
@@ -1039,7 +1058,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 51,
+      "order": 47,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.395Z"
@@ -1060,7 +1079,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 52,
+      "order": 48,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.404Z"
@@ -1081,7 +1100,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 53,
+      "order": 49,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.412Z"
@@ -1102,7 +1121,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 54,
+      "order": 50,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.421Z"
@@ -1123,7 +1142,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 55,
+      "order": 51,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.430Z"
@@ -1145,7 +1164,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 56,
+      "order": 52,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.442Z"
@@ -1166,7 +1185,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 57,
+      "order": 53,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.453Z"
@@ -1187,7 +1206,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 58,
+      "order": 54,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.465Z"
@@ -1208,7 +1227,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 59,
+      "order": 55,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.478Z"
@@ -1229,7 +1248,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 60,
+      "order": 56,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.489Z"
@@ -1250,7 +1269,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 61,
+      "order": 57,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.498Z"
@@ -1271,7 +1290,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 62,
+      "order": 58,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.511Z"
@@ -1292,7 +1311,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 63,
+      "order": 59,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.523Z"
@@ -1313,7 +1332,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 64,
+      "order": 60,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.532Z"
@@ -1334,7 +1353,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 65,
+      "order": 61,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.541Z"
@@ -1356,7 +1375,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 66,
+      "order": 62,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.550Z"
@@ -1377,7 +1396,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 67,
+      "order": 63,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.561Z"
@@ -1398,7 +1417,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 68,
+      "order": 64,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.572Z"
@@ -1419,7 +1438,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 69,
+      "order": 65,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.581Z"
@@ -1440,7 +1459,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 70,
+      "order": 66,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.591Z"
@@ -1462,7 +1481,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 71,
+      "order": 67,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.603Z"
@@ -1483,7 +1502,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 72,
+      "order": 68,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.615Z"
@@ -1504,7 +1523,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 73,
+      "order": 69,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.628Z"
@@ -1525,7 +1544,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 74,
+      "order": 70,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.640Z"
@@ -1546,7 +1565,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 75,
+      "order": 71,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.651Z"
@@ -1567,7 +1586,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 76,
+      "order": 72,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.660Z"
@@ -1588,7 +1607,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 77,
+      "order": 73,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.669Z"
@@ -1609,7 +1628,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 78,
+      "order": 74,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.681Z"
@@ -1630,7 +1649,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 79,
+      "order": 75,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.693Z"
@@ -1651,7 +1670,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 80,
+      "order": 76,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.705Z"
@@ -1672,7 +1691,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 81,
+      "order": 77,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.720Z"
@@ -1693,7 +1712,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 82,
+      "order": 78,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.732Z"
@@ -1713,7 +1732,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 83,
+      "order": 79,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.744Z"
@@ -1734,7 +1753,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 84,
+      "order": 80,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.378Z",
       "updatedAt": "2026-09-19T12:33:38.755Z"
@@ -1755,7 +1774,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 85,
+      "order": 81,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.768Z"
@@ -1776,7 +1795,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 86,
+      "order": 82,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.777Z"
@@ -1796,7 +1815,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 87,
+      "order": 83,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.786Z"
@@ -1817,7 +1836,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 88,
+      "order": 84,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.798Z"
@@ -1838,7 +1857,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 89,
+      "order": 85,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.810Z"
@@ -1859,7 +1878,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 90,
+      "order": 86,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.821Z"
@@ -1881,7 +1900,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 91,
+      "order": 87,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.829Z"
@@ -1902,7 +1921,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 92,
+      "order": 88,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.837Z"
@@ -1923,7 +1942,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 93,
+      "order": 89,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.846Z"
@@ -1943,7 +1962,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 94,
+      "order": 90,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.856Z"
@@ -1964,7 +1983,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 95,
+      "order": 91,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.866Z"
@@ -1985,7 +2004,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 96,
+      "order": 92,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.878Z"
@@ -2006,7 +2025,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 97,
+      "order": 93,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.888Z"
@@ -2027,7 +2046,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 98,
+      "order": 94,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.900Z"
@@ -2048,7 +2067,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 99,
+      "order": 95,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.912Z"
@@ -2069,7 +2088,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 100,
+      "order": 96,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.924Z"
@@ -2090,7 +2109,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 101,
+      "order": 97,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.932Z"
@@ -2111,7 +2130,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 102,
+      "order": 98,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.941Z"
@@ -2132,7 +2151,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 103,
+      "order": 99,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.951Z"
@@ -2153,7 +2172,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 104,
+      "order": 100,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.962Z"
@@ -2174,7 +2193,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 105,
+      "order": 101,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.971Z"
@@ -2195,7 +2214,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 106,
+      "order": 102,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.980Z"
@@ -2216,7 +2235,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 107,
+      "order": 103,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:38.991Z"
@@ -2237,7 +2256,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 108,
+      "order": 104,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:39.000Z"
@@ -2258,7 +2277,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 109,
+      "order": 105,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:39.009Z"
@@ -2278,7 +2297,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 110,
+      "order": 106,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:39.018Z"
@@ -2299,7 +2318,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 111,
+      "order": 107,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:39.027Z"
@@ -2320,7 +2339,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 112,
+      "order": 108,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:39.036Z"
@@ -2341,7 +2360,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 113,
+      "order": 109,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:39.046Z"
@@ -2362,7 +2381,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 114,
+      "order": 110,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:39.057Z"
@@ -2383,7 +2402,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 115,
+      "order": 111,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:39.066Z"
@@ -2404,7 +2423,7 @@
       "githubUrl": "https://github.com/pathansahil0486-spo",
       "featured": false,
       "highlights": [],
-      "order": 116,
+      "order": 112,
       "__v": 0,
       "createdAt": "2026-09-19T10:10:43.379Z",
       "updatedAt": "2026-09-19T12:33:39.075Z"
